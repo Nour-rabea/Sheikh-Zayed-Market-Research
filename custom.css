@@ -1,0 +1,43 @@
+.my-bg-photo {
+  background: url('Media/Panner.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.my-bg-photo * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .65;
+}
+
+.my-custom-container {
+  max-width: 2000px;
+  background-image: url(Media/background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.accordion .btn-link:focus {
+  box-shadow: none;
+}
+
+.my-drawing {
+  transition: all .22s ease-out;
+}
+
+.my-drawing:hover {
+  transform: scale(1.054) rotate(18deg);
+}
