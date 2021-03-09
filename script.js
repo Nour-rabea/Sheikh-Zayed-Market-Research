@@ -1,4 +1,4 @@
-*head   <link rel="stylesheet" href="style.css">
+head   <link rel="stylesheet" href="style.css">
 <div class="form-box">
         <h1>Login Here</h1>
         <div class="input-box">
